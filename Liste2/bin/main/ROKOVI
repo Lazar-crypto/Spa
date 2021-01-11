@@ -1,0 +1,139 @@
+ //kad gledas parove koristis selection sort algoritam
+ //kad gledas podniz,vracas indeks po nekom uslovu
+ 
+ I Kol 2019
+ 	*
+ 	*
+ 	*
+	 1) data je CIKLICNA DS LISTA
+	izbaci sve negativne brojeve iz liste
+	
+	2) data je JS lista i parametri M i N
+	preskoci M elemenata pa izbaci N elemenata i tako do kraja
+	primer: M = 2  N = 2
+	
+	1 2 3 4 5 6 7 8 9 10 11  ->  1 2 5 6 9 10 
+	
+	3) data je JS lista i parametri BROJ i N
+	ubaci broj na N-to mesto od kraja liste
+	primer: BROJ = 10  N = 3
+	
+	1 2 3 4 5 -> 1 2 3 10 4 5
+
+	a) kako god
+	b) u jednom prolazu
+ 
+ JUN 2019
+	*
+	*
+	*
+	1) dat je niz i  dato je  K npr K = 2
+	premesti K elemenata sa kraja na pocetak
+	1 2 3 4 5 -> 4 5 1 2 3
+	
+	
+	2) izbaci iz JS liste sve elemente ciji je kvadrat veci od zbira elemenata pocetne liste
+	
+	
+	3) data je DS lista i dato je K npr K = 3
+	rotiraj svakih K elemenata
+	1 2 3 4 5 6 7 8  ->  3 2 1 6 5 4 8 7
+	
+	a) kako god
+	b) bez pomocnih struktura
+	
+ JUL 2019
+	 *
+	 *
+	 *	
+	 1) Ciklicna DS lista
+	Izracunati prosek parnih elemenata
+	
+	2) JS lista i parametar K
+	Vrati broj parova elemenata ciji je zbir veci od K
+	primer:
+	1 2 3 4     K = 5
+	parovi: 2 4 i 3 4
+	
+	3) Niz
+	U nizu zameniti svaki element proizvodom njegovih suseda.
+	Prvi zameniti proizvodom prvog i drugog a poslednji proizvodom poslednjeg i pretposlednjeg
+	primer:
+	1 2 3 4 5 pretvoriti u 2 3 8 15 20
+	
+	a) kako god
+	b) u jednom prolazu i bez pomocnih struktura
+	
+ SEPTEMBAR 2019
+	 *
+	 *
+	 *
+	 1) DSLista, dat novi broj kao parametar
+	Ubaci taj broj izmedju dva susedna negativna broja, ako takva dva broja ne postoje ubaci na kraj
+	Primer: dat broj 5
+	
+	1 2 -1 -3 7 6 -> 1 2 -1 5 -3 7 6
+	
+	2) JSLista, dat broj kao parametar
+	Izbaci sve brojeve iz liste koji su manji od tog broja
+	
+	3) Dat niz, nadji najvecu razliku izmedju dva elementa tako da desni element mora biti veci od drugog
+ 
+ OKTOBAR 2019
+	 *
+	 *
+	 *
+	 1) JS lista, dat broj kao parametar
+	Izbaci iz liste broj pre tog broja
+	Parametar = 6
+	1 2 3 5 6 7  -->  1 2 3 6 7
+	
+	2) Dve liste
+	1 2 3
+	2 3
+	Pretvoriti u brojeve 123 i 23, sabrati ih i napravi opet listu od toga
+	123+23=146
+	Lista: 1 4 6
+	
+	3) Niz
+	Prebaci sve negativne da idu prvi, pa onda svi pozitivni
+	a) kako god
+	b) u jednom prolazu bez pomocnih
+ 
+ JANUAR 2020
+	 *
+	 *
+	 *
+	 1) JSLista, dat novi broj kao parametar
+	Ubaci taj broj posle prvog broja koji je manji od njega, ako ne postoji element manji od parametra, ubaci ga na kraj liste
+	
+	2) DSLista
+	Izbaci sve neparne elemente
+	
+	3) Niz, dat parametar
+	Funkcija vraca duzinu najkraceg podniza ciji je zbir elemenata veci od parametra
+	a) Kako god
+	b) U jednom prolazu
+ 
+ FEBRUAR 2020
+	 *
+	 *
+	 *
+	 1) Date dve js liste kao parametri, elementi tih lista su temperature po danima. Metoda treba da vrati najveci zbir temperatura za neki dan
+	Primer
+	Lista1: 1 2 3 4 5
+	Lista2: 5 1 6 7 1
+	
+	Metoda vraca 11  (7+4)
+	
+	
+	2) DSLista
+	Krece se od drugog el i izbacuje se svaki treci (znaci 5. pa 8. itd)
+	
+	1 2 3 4 5 6 7 8 9 ->
+	1 2 3 4 6 7 9
+	
+	3) Niz, dat broj kao parametar
+	Metoda vraca duzinu najkraceg podniza ciji je zbir veci od datog parametra
+ 
+ 	
